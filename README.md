@@ -1,1 +1,3 @@
-# projektowanie-serwisow-www-jw-185
+### projektowanie-serwisow-www-jw-185
+
+### Autor Jeremi Wielewski
