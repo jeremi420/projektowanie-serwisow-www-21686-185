@@ -60,7 +60,7 @@ const onClick = (value) => (e) => {
                 buttons[i].textContent = null;
             }
             status.innerHTML = "Następny gracz: X";
-            main.removeChild(reset);
+            modal.removeChild(reset);
         };
         modal.append(reset);
     } else {
