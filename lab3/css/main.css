@@ -1,0 +1,19 @@
+#czerwony {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 0 auto;
+}
+#czerwony-info {
+    visibility: hidden;
+}
+main {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+}
+body {
+    margin: 0px;
+}
