@@ -4,9 +4,8 @@ import AppBar from "./AppBar";
 import Drawer from "./Drawer";
 import Home from "./Home";
 import Products from "./Products";
+import Cart from "./Cart";
 import ProductDetails from "./ProductDetails";
-import routes from "./routes";
-import RecursiveRoute from "./RecursiveRoute";
 
 export default function App() {
     const [open, setOpen] = React.useState(false);
@@ -32,6 +31,9 @@ export default function App() {
                 </Route>
                 <Route path="/products">
                     <Products />
+                </Route>
+                <Route path="/cart">
+                    <Cart />
                 </Route>
             </Switch>
         </React.Fragment>
